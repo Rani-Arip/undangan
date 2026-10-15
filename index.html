@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f4ee">
+  <title>Undangan Pernikahan Arif & Rani</title>
+  <style>
+    :root { --cream:#f8f4ee; --paper:#fffdf9; --ink:#40372f; --muted:#7c7065; --accent:#8a6f5b; --line:#dfd2c3; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--cream); font-family:Georgia, "Times New Roman", serif; }
+    .cover {
+      min-height:100svh; padding:36px 22px; display:flex; align-items:center; justify-content:center;
+      text-align:center; background:linear-gradient(#f8f4eee8,#f8f4eef2), url('undangan-asli.jpg') center/cover;
+    }
+    .cover-card { width:min(100%,520px); padding:34px 24px; background:#fffdf9eF; border:1px solid var(--line); box-shadow:0 12px 40px #55402b18; }
+    .eyebrow { font-family:Arial,sans-serif; text-transform:uppercase; letter-spacing:3px; font-size:11px; color:var(--muted); }
+    h1 { font-weight:normal; font-size:clamp(42px,11vw,66px); line-height:1.05; margin:24px 0 14px; }
+    h1 span { display:block; font-style:italic; font-size:.55em; margin:10px 0; color:var(--accent); }
+    .date { font-family:Arial,sans-serif; letter-spacing:1px; font-size:13px; margin-top:24px; }
+    .button { display:inline-block; border:0; border-radius:30px; background:var(--accent); color:white; padding:14px 25px; margin-top:24px; font:14px Arial,sans-serif; text-decoration:none; cursor:pointer; }
+    section { padding:68px 22px; }
+    .inner { width:min(100%,650px); margin:auto; text-align:center; }
+    .ornament { color:var(--accent); letter-spacing:7px; font-size:20px; margin-bottom:18px; }
+    h2 { font-size:30px; font-weight:normal; margin:0 0 22px; }
+    p { font-size:16px; line-height:1.8; }
+    .names { font-size:clamp(30px,8vw,44px); font-style:italic; line-height:1.25; margin:22px 0; }
+    .and { color:var(--accent); font-size:30px; margin:8px; }
+    .event { background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .event-card { border:1px solid var(--line); padding:28px 20px; margin:18px 0; background:#fffdf9; }
+    .event-card h3 { margin:0 0 12px; font-size:22px; font-weight:normal; }
+    .small { color:var(--muted); font:13px/1.8 Arial,sans-serif; }
+    .mapbox { background:var(--paper); padding:30px 20px; border:1px solid var(--line); }
+    footer { text-align:center; padding:32px 20px 44px; font:12px Arial,sans-serif; color:var(--muted); }
+    .music-control { position:fixed; right:16px; bottom:16px; z-index:5; border:0; border-radius:28px; background:#fffdf9; color:var(--ink); box-shadow:0 3px 15px #0002; padding:12px 15px; font:13px Arial,sans-serif; cursor:pointer; }
+    @media (prefers-reduced-motion: no-preference) {
+      .fade { animation:fadeIn .8s ease both; }
+      @keyframes fadeIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover" id="home">
+    <div class="cover-card fade">
+      <div class="eyebrow">Undangan Pernikahan</div>
+      <h1>Arif <span>&amp;</span> Rani</h1>
+      <p>Dengan penuh rasa syukur, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu.</p>
+      <div class="date">MINGGU, 25 OKTOBER 2026</div>
+      <a class="button" href="#undangan">Buka Undangan ↓</a>
+    </div>
+  </header>
+
+  <section id="undangan">
+    <div class="inner fade">
+      <div class="ornament">❦</div>
+      <div class="eyebrow">Dengan memohon rahmat Allah SWT</div>
+      <p>Insya Allah kami akan menyelenggarakan pernikahan putra-putri kami:</p>
+      <div class="names">Arif Ikhsan</div>
+      <p class="small">Putra dari Bapak Owon &amp; Ibu Oom</p>
+      <div class="and">&amp;</div>
+      <div class="names">Neng Rani Nur Azizah</div>
+      <p class="small">Putri dari Bapak Atim Ibrahim &amp; Ibu Tuti</p>
+      <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+    </div>
+  </section>
+
+  <section class="event" id="acara">
+    <div class="inner">
+      <div class="ornament">❦</div>
+      <h2>Waktu Acara</h2>
+      <div class="event-card">
+        <h3>Akad Nikah</h3>
+        <p>Minggu, 25 Oktober 2026<br>07.00 WIB – selesai</p>
+      </div>
+      <div class="event-card">
+        <h3>Resepsi Pernikahan</h3>
+        <p>Minggu, 25 Oktober 2026<br>10.00 WIB – selesai</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lokasi">
+    <div class="inner">
+      <div class="ornament">⌖</div>
+      <h2>Lokasi Acara</h2>
+      <div class="mapbox">
+        <p>Kp. Sukamanah RT 03 RW 08<br>Desa Majakerta, Kecamatan Majalaya<br>Kabupaten Bandung</p>
+        <p class="small">Silakan buka peta untuk melihat lokasi acara.</p>
+        <!-- Ganti tautan di bawah dengan link Google Maps yang tepat jika sudah ada -->
+        <a class="button" href="https://maps.google.com/?q=Kp.+Sukamanah+RT+03+RW+08+Desa+Majakerta+Majalaya+Kabupaten+Bandung" target="_blank" rel="noopener">📍 Lihat Lokasi</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="inner">
+      <div class="ornament">❦</div>
+      <h2>Terima Kasih</h2>
+      <p>Merupakan kebahagiaan bagi kami atas kehadiran dan doa restu yang diberikan.</p>
+      <p>Wassalamu’alaikum warahmatullahi wabarakatuh.</p>
+      <div class="names" style="font-size:30px">Arif &amp; Rani</div>
+    </div>
+  </section>
+
+  <footer>Undangan Pernikahan Arif &amp; Rani · 25 Oktober 2026</footer>
+  <audio id="bgmusic" loop preload="none"></audio>
+  <button class="music-control" id="musicBtn" type="button" aria-label="Kontrol musik">♫ Musik: belum ditambahkan</button>
+  <script>
+    // Untuk menambahkan musik: masukkan file musik berizin pakai ke folder ini,
+    // ubah src audio menjadi nama file, misalnya: <audio id="bgmusic" src="musik.mp3" loop>
+    const audio = document.getElementById('bgmusic');
+    const btn = document.getElementById('musicBtn');
+    btn.addEventListener('click', async () => {
+      if (!audio.src || audio.src === window.location.href) {
+        btn.textContent = '♫ Tambahkan file musik dulu';
+        return;
+      }
+      try {
+        if (audio.paused) { await audio.play(); btn.textContent = '♫ Jeda Musik'; }
+        else { audio.pause(); btn.textContent = '♫ Putar Musik'; }
+      } catch (e) { btn.textContent = '♫ Tekan lagi untuk memutar'; }
+    });
+  </script>
+</body>
+</html>
