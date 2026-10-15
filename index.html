@@ -21,6 +21,25 @@
     .date { font-family:Arial,sans-serif; letter-spacing:1px; font-size:13px; margin-top:24px; }
     .button { display:inline-block; border:0; border-radius:30px; background:var(--accent); color:white; padding:14px 25px; margin-top:24px; font:14px Arial,sans-serif; text-decoration:none; cursor:pointer; }
     section { padding:68px 22px; }
+    section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('background.png') center/cover no-repeat;
+  opacity: 0.22;
+  z-index: -1;
+  pointer-events: none;
+}
+
+section > * {
+  position: relative;
+}
     .inner { width:min(100%,650px); margin:auto; text-align:center; }
     .ornament { color:var(--accent); letter-spacing:7px; font-size:20px; margin-bottom:18px; }
     h2 { font-size:30px; font-weight:normal; margin:0 0 22px; }
